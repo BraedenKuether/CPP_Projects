@@ -19,8 +19,8 @@ using namespace std;
 
 int main() {
 	srand(time(NULL));
-	Space* butt = new WhiteSpace;
-	butt->board();
+	Space* start = new WhiteSpace;
+	start->board();
 	Player x;
 	x.set_location(butt);
 	x.game();

@@ -22,7 +22,7 @@ int main() {
 	Space* start = new WhiteSpace;
 	start->board();
 	Player x;
-	x.set_location(butt);
+	x.set_location(start);
 	x.game();
 	return 0;
 }
